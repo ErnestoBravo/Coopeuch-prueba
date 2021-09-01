@@ -46,6 +46,6 @@ Se implementa Base de Datos H2:
 ### Instrucciones de despliege
 
 Para desplegar el proyecto solo se necesita dar start al proyecto en el Boot Dashboard,
-con esto se iniciara la BD M2 a la cual se puede acceder a travez de la URL indicada mas arriba (usuario "sa" sin password)
+con esto se iniciara la BD H2 a la cual se puede acceder a travez de la URL indicada mas arriba (usuario "sa" sin password)
 no se incluye script de BD ya que la tabla se crea a partir de la entidad "TAREA" al iniciar la BD, Los id de las tareas son auto generados.
 
