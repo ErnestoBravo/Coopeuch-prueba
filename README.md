@@ -39,7 +39,7 @@ Se implementa swagger:
 
 * [swagger-ui](http://localhost:8080/swagger-ui.html#/controller)
 
-Se implementa Base de Datos M2:
+Se implementa Base de Datos H2:
 
 * [h2-console](http://localhost:8080/h2-console/)
 
@@ -47,5 +47,5 @@ Se implementa Base de Datos M2:
 
 Para desplegar el proyecto solo se necesita dar start al proyecto en el Boot Dashboard,
 con esto se iniciara la BD M2 a la cual se puede acceder a travez de la URL indicada mas arriba (usuario "sa" sin password)
-no se incluye script de BD ya que la tabla se crea a partir de la entidad "TAREA" al iniciar la BD.
+no se incluye script de BD ya que la tabla se crea a partir de la entidad "TAREA" al iniciar la BD, Los id de las tareas son auto generados.
 
